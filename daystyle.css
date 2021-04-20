@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+table tr,
+table td,
+table th {
+  border: 1px solid rgb(0, 0, 0, 0.8);
+}
+h1 {
+  text-align: center;
+}
+table {
+  width: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.day-time {
+  width: 100px;
+  height: 40px;
+}
+.day-work {
+  width: 300px;
+}

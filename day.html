@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="daystyle.css" />
+    <title>당신의 하루</title>
+  </head>
+  <body>
+    <h1>당신의 하루</h1>
+    <p></p>
+    <table>
+      <tr>
+        <th class="day-time">시간</th>
+        <th class="day-work">한 일</th>
+        <th class="day-sat">만족도</th>
+      </tr>
+      <tr>
+        <td>7am</td>
+        <td>
+          <input class="daytime-7am" onkeyup="submitted()" />
+          <div id="result"></div>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>8am</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>9am</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>10am</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11am</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>12am</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <button onclick="add_row()">행 추가</button>
+    <table>
+      <tr>
+        <th class="day-time">시간</th>
+        <th class="day-work">한 일</th>
+        <th class="day-sat">만족도</th>
+        <tbody id ="myTable"></tbody>
+      </tr>
+    </table>
+    <script src="app.js"></script>
+  </body>
+</html>
